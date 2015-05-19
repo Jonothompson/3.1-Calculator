@@ -1,0 +1,119 @@
+html {
+  box-sizing: border-box; }
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit; }
+
+body {
+  background-image: url("../images/bg2.jpg");
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.container {
+  padding-top: 150px;
+  max-width: 740px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px; }
+  .container::after {
+    clear: both;
+    content: "";
+    display: table; }
+  .container button:focus {
+    outline: 0; }
+
+.shadow {
+  float: left;
+  display: block;
+  margin-right: 0%;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 15px 10px 10px rgba(0, 0, 0, 0.5); }
+  .shadow:last-child {
+    margin-right: 0; }
+
+.display {
+  background-color: #333333;
+  float: left;
+  display: block;
+  margin-right: 0%;
+  width: 100%;
+  height: 65px;
+  border: 1px solid #C0C0C0;
+  border-radius: 10px 10px 0 0;
+  color: white;
+  font-size: 30px;
+  text-align: right;
+  margin: 0px; }
+  .display:last-child {
+    margin-right: 0; }
+  .display h2 {
+    margin: 10px 0 0 0;
+    padding-right: 10px; }
+
+button {
+  float: left;
+  display: block;
+  margin-right: 0%;
+  width: 25%;
+  height: 40px;
+  color: white;
+  font-size: 25px; }
+  button:last-child {
+    margin-right: 0; }
+
+.zero {
+  float: left;
+  display: block;
+  margin-right: 0%;
+  width: 50%;
+  border-bottom-left-radius: 10px; }
+  .zero:last-child {
+    margin-right: 0; }
+
+.calc-button.ac {
+  background-color: #555555; }
+
+.calc-button.plusminus {
+  background-color: #555555; }
+
+.calc-button.percent {
+  background-color: #555555; }
+
+.calc-button.number {
+  background-color: #444444; }
+
+.calc-button.period {
+  background-color: #555555; }
+
+.calc-button.divide {
+  margin-right: 0;
+  color: white;
+  background-color: #000044; }
+
+.calc-button.multiply {
+  margin-right: 0;
+  color: white;
+  background-color: #000044; }
+
+.calc-button.subtract {
+  margin-right: 0;
+  color: white;
+  background-color: #000044; }
+
+.calc-button.plus {
+  margin-right: 0;
+  color: white;
+  background-color: #000044; }
+
+.calc-button.equal {
+  margin-right: 0;
+  color: white;
+  background-color: #000044;
+  border-bottom-right-radius: 10px; }
+
+.calc-button.operator {
+  color: white;
+  background-color: #000044; }
